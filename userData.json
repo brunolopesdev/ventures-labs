@@ -1,0 +1,17 @@
+{
+  "users": [
+    {
+      "name": "Usuário",
+      "lastName": "Teste",
+      "email": "teste@teste.com",
+      "phone": "(11) 912341-2345",
+      "cep": "08140-060",
+      "adressOne": "Rua Teste",
+      "adressTwo": "Rua teste 2",
+      "birthDate": "1994-04-11",
+      "cpf": "45313470809",
+      "rendaMensal": "5000",
+      "id": 1
+    }
+  ]
+}

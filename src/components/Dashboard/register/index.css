@@ -1,0 +1,26 @@
+main {
+  background: #fff;
+  grid-area: main;
+  padding: 5px;
+  /* overflow-y: auto; */
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.errorMessage {
+  text-align: center;
+  color: red;
+}
+
+.visible {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
