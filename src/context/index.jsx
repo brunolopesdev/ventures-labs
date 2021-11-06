@@ -15,13 +15,13 @@ function DataContextProvider(props) {
   }, []);
 
   const getClients = () => {
-    axios.get("http://localhost:4000/users").then((response) => {
+    axios.get("https://venture-labs.herokuapp.com/users").then((response) => {
       setData(response.data);
     });
   };
 
   const deleteClient = (id) => {
-    axios.delete(`http://localhost:4000/users/${id}`);
+    axios.delete(`https://venture-labs.herokuapp.com/users/${id}`);
     setData(
       data.filter((value) => {
         return value.id != id;
@@ -32,7 +32,7 @@ function DataContextProvider(props) {
   };
 
   const registerClient = async (values) => {
-    await axios.post("http://localhost:4000/users", values);
+    await axios.post("https://venture-labs.herokuapp.com/users", values);
     try {
       return [completeFormStep(), getClients()];
     } catch (error) {

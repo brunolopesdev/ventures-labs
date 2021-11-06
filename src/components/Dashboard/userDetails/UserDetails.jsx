@@ -11,9 +11,11 @@ export const UserDetails = (props) => {
   const { id } = useParams();
 
   useEffect(() => {
-    axios.get(`http://localhost:4000/users/${id}`).then((response) => {
-      setUserDetail(response.data);
-    });
+    axios
+      .get(`https://venture-labs.herokuapp.com/users/${id}`)
+      .then((response) => {
+        setUserDetail(response.data);
+      });
   }, []);
   return (
     <main>
