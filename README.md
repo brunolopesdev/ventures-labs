@@ -34,12 +34,9 @@
  <a href="#features">Features</a> •
  <a href="#revised-concepts">Revised Concepts</a> • 
  <a href="#installation">Installation</a> • 
- <a href="#getting-started">Get Started</a> • 
- <a href="#technologies">Technologies</a> • 
- <a href="#license">License</a>
 </p>
 
-## 📌About
+## 📌Sobre
 
 <div>
     <p align="center">
@@ -51,14 +48,14 @@
 
 - Criação, Adição e Deleção de Usuários
 
-## 👓Revised Concepts
+## 👓Conceitos
 
 - Componentização React
 - Uso de Rotas
 - Consumo de mock API
 - CRUD
 
-## 📕Installation
+## 📕Instalação
 
 **É necessário já ter instalado**
 - [Node.js](https://nodejs.org/en/)
